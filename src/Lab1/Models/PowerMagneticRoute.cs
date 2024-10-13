@@ -21,5 +21,4 @@ public class PowerMagneticRoute : RouteSection
         double time = train.CalculateTravelTime(Length);
         return time >= 0 ? new SimulationResult(true, time) : new SimulationResult(false, time);
     }
-
 }
