@@ -2,7 +2,7 @@
 
 namespace Itmo.ObjectOrientedProgramming.Lab3.Models.Message;
 
-public class Message : IMessage
+public class MessageDevice : IMessage
 {
     public string? Title { get; }
 
@@ -10,7 +10,7 @@ public class Message : IMessage
 
     public int ImportanceLevel { get; }
 
-    public Message(string? title, string? body, int importanceLevel)
+    public MessageDevice(string? title, string? body, int importanceLevel)
     {
         Title = title;
         Body = body;
