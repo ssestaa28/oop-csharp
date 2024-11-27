@@ -1,4 +1,4 @@
-﻿using Itmo.ObjectOrientedProgramming.Lab4.Interfaces;
+﻿using Itmo.ObjectOrientedProgramming.Lab4.Iёnterfaces;
 
 namespace Itmo.ObjectOrientedProgramming.Lab4.Commands;
 

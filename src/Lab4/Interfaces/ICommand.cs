@@ -1,4 +1,4 @@
-﻿namespace Itmo.ObjectOrientedProgramming.Lab4.Interfaces;
+﻿namespace Itmo.ObjectOrientedProgramming.Lab4.Iёnterfaces;
 
 public interface ICommand
 {
