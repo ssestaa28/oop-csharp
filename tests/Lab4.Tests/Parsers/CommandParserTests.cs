@@ -1,5 +1,5 @@
 ﻿using Itmo.ObjectOrientedProgramming.Lab4.Handlers;
-using Itmo.ObjectOrientedProgramming.Lab4.Iёnterfaces;
+using Itmo.ObjectOrientedProgramming.Lab4.Interfaces;
 using Moq;
 using Xunit;
 

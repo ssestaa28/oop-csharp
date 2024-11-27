@@ -1,4 +1,4 @@
-﻿using Itmo.ObjectOrientedProgramming.Lab4.Iёnterfaces;
+﻿using Itmo.ObjectOrientedProgramming.Lab4.Interfaces;
 using Moq;
 
 namespace Lab4.Tests.Shareds;

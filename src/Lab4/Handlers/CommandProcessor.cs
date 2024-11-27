@@ -1,12 +1,13 @@
-﻿using System.Collections.ObjectModel;
+﻿using Itmo.ObjectOrientedProgramming.Lab4.Interfaces;
+using System.Collections.ObjectModel;
 
 namespace Itmo.ObjectOrientedProgramming.Lab4.Handlers;
 
 public class CommandProcessor
 {
-    private readonly Collection<Iёnterfaces.ICommand> _commands = new();
+    private readonly Collection<ICommand> _commands = new();
 
-    public void RegisterCommand(Iёnterfaces.ICommand command)
+    public void RegisterCommand(ICommand command)
     {
         ArgumentNullException.ThrowIfNull(command);
 
@@ -29,7 +30,7 @@ public class CommandProcessor
         string commandName = parts[0];
         string[] args = parts.Skip(1).ToArray();
 
-        Iёnterfaces.ICommand? command = _commands.FirstOrDefault(c => c.Name.Equals(commandName, StringComparison.OrdinalIgnoreCase));
+        ICommand? command = _commands.FirstOrDefault(c => c.Name.Equals(commandName, StringComparison.OrdinalIgnoreCase));
         if (command is null)
         {
             throw new InvalidOperationException($"Command '{commandName}' not найдена");

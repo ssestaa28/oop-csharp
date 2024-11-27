@@ -1,6 +1,6 @@
 ﻿using Itmo.ObjectOrientedProgramming.Lab4.Models;
 
-namespace Itmo.ObjectOrientedProgramming.Lab4.Iёnterfaces;
+namespace Itmo.ObjectOrientedProgramming.Lab4.Interfaces;
 
 public interface IFileSystem
 {
