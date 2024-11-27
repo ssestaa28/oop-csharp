@@ -11,7 +11,6 @@ public class PathHelperTests
     public void IsRelativePath_ShouldReturnCorrectResult(string path, bool expected)
     {
         var pathHelper = new PathHelper();
-
         bool result = pathHelper.IsRelativePath(path);
 
         Assert.Equal(expected, result);
