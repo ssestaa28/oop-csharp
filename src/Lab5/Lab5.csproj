@@ -4,4 +4,13 @@
         <RootNamespace>Itmo.ObjectOrientedProgramming.Lab5</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Dapper" />
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" />
+      <PackageReference Include="Microsoft.Data.SqlClient" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+      <PackageReference Include="Npgsql" />
+      <PackageReference Include="Swashbuckle.AspNetCore" />
+    </ItemGroup>
+
 </Project>
